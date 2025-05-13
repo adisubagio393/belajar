@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+saat saya klik button, maka arahkan ke halaman lain, <!DOCTYPE html>
+
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -13,755 +14,761 @@
             background-color: #f0f8ff;
             color: #333;
         }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            background-color: #1e90ff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        .dashboard {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        
-        .card h3 {
-            margin-top: 0;
-            color: #1e90ff;
-        }
-        
-        .card .value {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        
-        .menu {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .menu-btn {
-            background: #1e90ff;
-            color: white;
-            border: none;
-            padding: 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background 0.3s;
-        }
-        
-        .menu-btn:hover {
-            background: #187bcd;
-        }
-        
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.5);
-        }
-        
-        .modal-content {
-            background-color: #fefefe;
-            margin: 10% auto;
-            padding: 20px;
-            border-radius: 5px;
-            width: 80%;
-            max-width: 600px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        
-        .close:hover {
-            color: black;
-        }
-        
-        form div {
-            margin-bottom: 15px;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        
-        input, select {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        
-        button[type="submit"] {
-            background: #1e90ff;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        
-        button[type="submit"]:hover {
-            background: #187bcd;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        th {
-            background-color: #1e90ff;
-            color: white;
-        }
-        
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        
-        .tab {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
-            border-radius: 5px 5px 0 0;
-        }
-        
-        .tab button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-            font-size: 16px;
-        }
-        
-        .tab button:hover {
-            background-color: #ddd;
-        }
-        
-        .tab button.active {
-            background-color: #1e90ff;
-            color: white;
-        }
-        
-        .tabcontent {
-            display: none;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-top: none;
-            border-radius: 0 0 5px 5px;
-            background-color: white;
-        }
-        
-        .notification {
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 4px;
-            color: white;
-            display: none;
-        }
-        
-        .success {
-            background-color: #4CAF50;
-        }
-        
-        .error {
-            background-color: #f44336;
-        }
-    </style>
+
+```
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    header {
+        background-color: #1e90ff;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .dashboard {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    
+    .card h3 {
+        margin-top: 0;
+        color: #1e90ff;
+    }
+    
+    .card .value {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .menu-btn {
+        background: #1e90ff;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+    
+    .menu-btn:hover {
+        background: #187bcd;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close:hover {
+        color: black;
+    }
+    
+    form div {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    button[type="submit"] {
+        background: #1e90ff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button[type="submit"]:hover {
+        background: #187bcd;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #1e90ff;
+        color: white;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 16px;
+    }
+    
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    
+    .tab button.active {
+        background-color: #1e90ff;
+        color: white;
+    }
+    
+    .tabcontent {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        background-color: white;
+    }
+    
+    .notification {
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        color: white;
+        display: none;
+    }
+    
+    .success {
+        background-color: #4CAF50;
+    }
+    
+    .error {
+        background-color: #f44336;
+    }
+</style>
+```
+
 </head>
 <body>
     <div class="container">
         <header>
             <h1>APLIKASI MANAJEMEN KOLAM</h1>
         </header>
-        
-        <div id="notification" class="notification"></div>
-        
-        <div class="dashboard">
-            <div class="card">
-                <h3>Modal Awal</h3>
-                <div class="value" id="modal-awal">Rp 0</div>
-            </div>
-            <div class="card">
-                <h3>Saldo Saat Ini</h3>
-                <div class="value" id="saldo">Rp 0</div>
-            </div>
-            <div class="card">
-                <h3>Stok Ikan</h3>
-                <div class="value" id="stok-ikan">0 kg</div>
-            </div>
+
+```
+    <div id="notification" class="notification"></div>
+    
+    <div class="dashboard">
+        <div class="card">
+            <h3>Modal Awal</h3>
+            <div class="value" id="modal-awal">Rp 0</div>
         </div>
-        
-        <div class="menu">
-            <button class="menu-btn" onclick="openModal('modal-awal-modal')">Atur Modal Awal</button>
-            <button class="menu-btn" onclick="openModal('pembelian-modal')">Pembelian Benih/Pakan</button>
-            <button class="menu-btn" onclick="openModal('penjualan-modal')">Penjualan Ikan</button>
-            <button class="menu-btn" onclick="openModal('biaya-modal')">Biaya Operasional</button>
-            <button class="menu-btn" onclick="showTab('laporan-keuangan')">Laporan Keuangan</button>
-            <button class="menu-btn" onclick="showTab('laporan-stok')">Laporan Stok</button>
+        <div class="card">
+            <h3>Saldo Saat Ini</h3>
+            <div class="value" id="saldo">Rp 0</div>
         </div>
-        
-        <div class="tab">
-            <button class="tablinks active" onclick="showTab('transaksi-terakhir')">Transaksi Terakhir</button>
-            <button class="tablinks" onclick="showTab('laporan-keuangan')">Laporan Keuangan</button>
-            <button class="tablinks" onclick="showTab('laporan-stok')">Laporan Stok</button>
-        </div>
-        
-        <div id="transaksi-terakhir" class="tabcontent" style="display: block;">
-            <h2>10 Transaksi Terakhir</h2>
-            <table id="transaksi-table">
-                <thead>
-                    <tr>
-                        <th>Tanggal</th>
-                        <th>Keterangan</th>
-                        <th>Jumlah</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data transaksi akan diisi oleh JavaScript -->
-                </tbody>
-            </table>
-        </div>
-        
-        <div id="laporan-keuangan" class="tabcontent">
-            <h2>Laporan Keuangan</h2>
-            <div class="card" style="text-align: left; margin-bottom: 20px;">
-                <h3>Ringkasan Keuangan</h3>
-                <p>Modal Awal: <span id="laporan-modal-awal">Rp 0</span></p>
-                <p>Total Pemasukan: <span id="total-pemasukan">Rp 0</span></p>
-                <p>Total Pengeluaran: <span id="total-pengeluaran">Rp 0</span></p>
-                <p>Saldo Saat Ini: <span id="laporan-saldo">Rp 0</span></p>
-            </div>
-            
-            <h3>Semua Transaksi</h3>
-            <table id="semua-transaksi-table">
-                <thead>
-                    <tr>
-                        <th>Tanggal</th>
-                        <th>Keterangan</th>
-                        <th>Jumlah</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data transaksi akan diisi oleh JavaScript -->
-                </tbody>
-            </table>
-        </div>
-        
-        <div id="laporan-stok" class="tabcontent">
-            <h2>Laporan Stok Ikan</h2>
-            <div class="card" style="text-align: left;">
-                <h3>Status Stok</h3>
-                <p>Stok Ikan Saat Ini: <span id="laporan-stok-ikan">0</span> kg</p>
-                <p>Harga Jual Terakhir: <span id="harga-jual-terakhir">Rp 0</span> per kg</p>
-                <p>Nilai Stok (Estimasi): <span id="nilai-stok">Rp 0</span></p>
-            </div>
-            
-            <h3>Riwayat Stok</h3>
-            <table id="riwayat-stok-table">
-                <thead>
-                    <tr>
-                        <th>Tanggal</th>
-                        <th>Keterangan</th>
-                        <th>Perubahan</th>
-                        <th>Stok Akhir</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data stok akan diisi oleh JavaScript -->
-                </tbody>
-            </table>
+        <div class="card">
+            <h3>Stok Ikan</h3>
+            <div class="value" id="stok-ikan">0 kg</div>
         </div>
     </div>
     
-    <!-- Modal Atur Modal Awal -->
-    <div id="modal-awal-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal-awal-modal')">&times;</span>
-            <h2>Atur Modal Awal</h2>
-            <form id="modal-awal-form">
-                <div>
-                    <label for="modal-awal">Jumlah Modal Awal (Rp)</label>
-                    <input type="number" id="modal-awal-input" required min="1">
-                </div>
-                <button type="submit">Simpan</button>
-            </form>
-        </div>
+    <div class="menu">
+        <button class="menu-btn" onclick="openModal('modal-awal-modal')">Atur Modal Awal</button>
+        <button class="menu-btn" onclick="openModal('pembelian-modal')">Pembelian Benih/Pakan</button>
+        <button class="menu-btn" onclick="openModal('penjualan-modal')">Penjualan Ikan</button>
+        <button class="menu-btn" onclick="openModal('biaya-modal')">Biaya Operasional</button>
+        <button class="menu-btn" onclick="showTab('laporan-keuangan')">Laporan Keuangan</button>
+        <button class="menu-btn" onclick="showTab('laporan-stok')">Laporan Stok</button>
     </div>
     
-    <!-- Modal Pembelian Benih/Pakan -->
-    <div id="pembelian-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('pembelian-modal')">&times;</span>
-            <h2>Pembelian Benih/Pakan</h2>
-            <form id="pembelian-form">
-                <div>
-                    <label for="jenis-pembelian">Jenis Pembelian</label>
-                    <select id="jenis-pembelian" required>
-                        <option value="">Pilih Jenis</option>
-                        <option value="benih">Benih Ikan</option>
-                        <option value="pakan">Pakan Ikan</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="jumlah-pembelian">Jumlah (kg)</label>
-                    <input type="number" id="jumlah-pembelian" required min="0.1" step="0.1">
-                </div>
-                <div>
-                    <label for="harga-pembelian">Harga per kg (Rp)</label>
-                    <input type="number" id="harga-pembelian" required min="1">
-                </div>
-                <button type="submit">Simpan</button>
-            </form>
-        </div>
+    <div class="tab">
+        <button class="tablinks active" onclick="showTab('transaksi-terakhir')">Transaksi Terakhir</button>
+        <button class="tablinks" onclick="showTab('laporan-keuangan')">Laporan Keuangan</button>
+        <button class="tablinks" onclick="showTab('laporan-stok')">Laporan Stok</button>
     </div>
     
-    <!-- Modal Penjualan Ikan -->
-    <div id="penjualan-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('penjualan-modal')">&times;</span>
-            <h2>Penjualan Ikan</h2>
-            <form id="penjualan-form">
-                <div>
-                    <label for="jumlah-penjualan">Jumlah Ikan (kg)</label>
-                    <input type="number" id="jumlah-penjualan" required min="0.1" step="0.1">
-                </div>
-                <div>
-                    <label for="harga-penjualan">Harga per kg (Rp)</label>
-                    <input type="number" id="harga-penjualan" required min="1">
-                </div>
-                <button type="submit">Simpan</button>
-            </form>
-        </div>
+    <div id="transaksi-terakhir" class="tabcontent" style="display: block;">
+        <h2>10 Transaksi Terakhir</h2>
+        <table id="transaksi-table">
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data transaksi akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
     </div>
     
-    <!-- Modal Biaya Operasional -->
-    <div id="biaya-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('biaya-modal')">&times;</span>
-            <h2>Biaya Operasional</h2>
-            <form id="biaya-form">
-                <div>
-                    <label for="keterangan-biaya">Keterangan Biaya</label>
-                    <input type="text" id="keterangan-biaya" required>
-                </div>
-                <div>
-                    <label for="jumlah-biaya">Jumlah Biaya (Rp)</label>
-                    <input type="number" id="jumlah-biaya" required min="1">
-                </div>
-                <button type="submit">Simpan</button>
-            </form>
-            
-            <h3 style="margin-top: 30px;">Daftar Biaya Operasional</h3>
-            <table id="biaya-table">
-                <thead>
-                    <tr>
-                        <th>Tanggal</th>
-                        <th>Keterangan</th>
-                        <th>Jumlah</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data biaya akan diisi oleh JavaScript -->
-                </tbody>
-            </table>
+    <div id="laporan-keuangan" class="tabcontent">
+        <h2>Laporan Keuangan</h2>
+        <div class="card" style="text-align: left; margin-bottom: 20px;">
+            <h3>Ringkasan Keuangan</h3>
+            <p>Modal Awal: <span id="laporan-modal-awal">Rp 0</span></p>
+            <p>Total Pemasukan: <span id="total-pemasukan">Rp 0</span></p>
+            <p>Total Pengeluaran: <span id="total-pengeluaran">Rp 0</span></p>
+            <p>Saldo Saat Ini: <span id="laporan-saldo">Rp 0</span></p>
         </div>
-    </div>
-    
-    <script>
-        // Data aplikasi
-        let data = {
-            modalAwal: 0,
-            saldo: 0,
-            stokIkan: 0,
-            hargaJual: 0,
-            transaksi: [],
-            biayaOperasional: [],
-            riwayatStok: []
-        };
         
-        // Load data dari localStorage saat pertama kali dijalankan
-        function loadData() {
-            const savedData = localStorage.getItem('manajemenKolamData');
-            if (savedData) {
-                data = JSON.parse(savedData);
-                updateUI();
-            }
+        <h3>Semua Transaksi</h3>
+        <table id="semua-transaksi-table">
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data transaksi akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="laporan-stok" class="tabcontent">
+        <h2>Laporan Stok Ikan</h2>
+        <div class="card" style="text-align: left;">
+            <h3>Status Stok</h3>
+            <p>Stok Ikan Saat Ini: <span id="laporan-stok-ikan">0</span> kg</p>
+            <p>Harga Jual Terakhir: <span id="harga-jual-terakhir">Rp 0</span> per kg</p>
+            <p>Nilai Stok (Estimasi): <span id="nilai-stok">Rp 0</span></p>
+        </div>
+        
+        <h3>Riwayat Stok</h3>
+        <table id="riwayat-stok-table">
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Keterangan</th>
+                    <th>Perubahan</th>
+                    <th>Stok Akhir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data stok akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal Atur Modal Awal -->
+<div id="modal-awal-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-awal-modal')">&times;</span>
+        <h2>Atur Modal Awal</h2>
+        <form id="modal-awal-form">
+            <div>
+                <label for="modal-awal">Jumlah Modal Awal (Rp)</label>
+                <input type="number" id="modal-awal-input" required min="1">
+            </div>
+            <button type="submit">Simpan</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Pembelian Benih/Pakan -->
+<div id="pembelian-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('pembelian-modal')">&times;</span>
+        <h2>Pembelian Benih/Pakan</h2>
+        <form id="pembelian-form">
+            <div>
+                <label for="jenis-pembelian">Jenis Pembelian</label>
+                <select id="jenis-pembelian" required>
+                    <option value="">Pilih Jenis</option>
+                    <option value="benih">Benih Ikan</option>
+                    <option value="pakan">Pakan Ikan</option>
+                </select>
+            </div>
+            <div>
+                <label for="jumlah-pembelian">Jumlah (kg)</label>
+                <input type="number" id="jumlah-pembelian" required min="0.1" step="0.1">
+            </div>
+            <div>
+                <label for="harga-pembelian">Harga per kg (Rp)</label>
+                <input type="number" id="harga-pembelian" required min="1">
+            </div>
+            <button type="submit">Simpan</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Penjualan Ikan -->
+<div id="penjualan-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('penjualan-modal')">&times;</span>
+        <h2>Penjualan Ikan</h2>
+        <form id="penjualan-form">
+            <div>
+                <label for="jumlah-penjualan">Jumlah Ikan (kg)</label>
+                <input type="number" id="jumlah-penjualan" required min="0.1" step="0.1">
+            </div>
+            <div>
+                <label for="harga-penjualan">Harga per kg (Rp)</label>
+                <input type="number" id="harga-penjualan" required min="1">
+            </div>
+            <button type="submit">Simpan</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Biaya Operasional -->
+<div id="biaya-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('biaya-modal')">&times;</span>
+        <h2>Biaya Operasional</h2>
+        <form id="biaya-form">
+            <div>
+                <label for="keterangan-biaya">Keterangan Biaya</label>
+                <input type="text" id="keterangan-biaya" required>
+            </div>
+            <div>
+                <label for="jumlah-biaya">Jumlah Biaya (Rp)</label>
+                <input type="number" id="jumlah-biaya" required min="1">
+            </div>
+            <button type="submit">Simpan</button>
+        </form>
+        
+        <h3 style="margin-top: 30px;">Daftar Biaya Operasional</h3>
+        <table id="biaya-table">
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Keterangan</th>
+                    <th>Jumlah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data biaya akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    // Data aplikasi
+    let data = {
+        modalAwal: 0,
+        saldo: 0,
+        stokIkan: 0,
+        hargaJual: 0,
+        transaksi: [],
+        biayaOperasional: [],
+        riwayatStok: []
+    };
+    
+    // Load data dari localStorage saat pertama kali dijalankan
+    function loadData() {
+        const savedData = localStorage.getItem('manajemenKolamData');
+        if (savedData) {
+            data = JSON.parse(savedData);
+            updateUI();
         }
+    }
+    
+    // Simpan data ke localStorage
+    function saveData() {
+        localStorage.setItem('manajemenKolamData', JSON.stringify(data));
+        showNotification('Data berhasil disimpan', 'success');
+    }
+    
+    // Update tampilan UI berdasarkan data
+    function updateUI() {
+        // Update dashboard
+        document.getElementById('modal-awal').textContent = formatRupiah(data.modalAwal);
+        document.getElementById('saldo').textContent = formatRupiah(data.saldo);
+        document.getElementById('stok-ikan').textContent = `${data.stokIkan} kg`;
         
-        // Simpan data ke localStorage
-        function saveData() {
-            localStorage.setItem('manajemenKolamData', JSON.stringify(data));
-            showNotification('Data berhasil disimpan', 'success');
-        }
+        // Update laporan keuangan
+        document.getElementById('laporan-modal-awal').textContent = formatRupiah(data.modalAwal);
+        document.getElementById('laporan-saldo').textContent = formatRupiah(data.saldo);
         
-        // Update tampilan UI berdasarkan data
-        function updateUI() {
-            // Update dashboard
-            document.getElementById('modal-awal').textContent = formatRupiah(data.modalAwal);
-            document.getElementById('saldo').textContent = formatRupiah(data.saldo);
-            document.getElementById('stok-ikan').textContent = `${data.stokIkan} kg`;
-            
-            // Update laporan keuangan
-            document.getElementById('laporan-modal-awal').textContent = formatRupiah(data.modalAwal);
-            document.getElementById('laporan-saldo').textContent = formatRupiah(data.saldo);
-            
-            const totalPemasukan = data.transaksi
-                .filter(t => t.jumlah > 0)
-                .reduce((sum, t) => sum + t.jumlah, 0);
-            const totalPengeluaran = data.transaksi
-                .filter(t => t.jumlah < 0)
-                .reduce((sum, t) => sum + Math.abs(t.jumlah), 0);
-            
-            document.getElementById('total-pemasukan').textContent = formatRupiah(totalPemasukan);
-            document.getElementById('total-pengeluaran').textContent = formatRupiah(totalPengeluaran);
-            
-            // Update laporan stok
-            document.getElementById('laporan-stok-ikan').textContent = data.stokIkan;
-            document.getElementById('harga-jual-terakhir').textContent = formatRupiah(data.hargaJual);
-            document.getElementById('nilai-stok').textContent = formatRupiah(data.stokIkan * data.hargaJual);
-            
-            // Update tabel transaksi terakhir
-            const transaksiTerakhir = data.transaksi.slice(-10).reverse();
-            updateTable('transaksi-table', transaksiTerakhir);
-            
-            // Update tabel semua transaksi
-            updateTable('semua-transaksi-table', [...data.transaksi].reverse());
-            
-            // Update tabel riwayat stok
-            updateStokTable();
-            
-            // Update tabel biaya operasional
-            updateTable('biaya-table', data.biayaOperasional);
-        }
+        const totalPemasukan = data.transaksi
+            .filter(t => t.jumlah > 0)
+            .reduce((sum, t) => sum + t.jumlah, 0);
+        const totalPengeluaran = data.transaksi
+            .filter(t => t.jumlah < 0)
+            .reduce((sum, t) => sum + Math.abs(t.jumlah), 0);
         
-        // Update tabel dengan data
-        function updateTable(tableId, items) {
-            const tableBody = document.querySelector(`#${tableId} tbody`);
-            tableBody.innerHTML = '';
-            
-            items.forEach(item => {
-                const row = document.createElement('tr');
-                
-                const tanggalCell = document.createElement('td');
-                tanggalCell.textContent = item.tanggal;
-                row.appendChild(tanggalCell);
-                
-                const keteranganCell = document.createElement('td');
-                keteranganCell.textContent = item.keterangan;
-                row.appendChild(keteranganCell);
-                
-                const jumlahCell = document.createElement('td');
-                jumlahCell.textContent = formatRupiah(item.jumlah);
-                if (item.jumlah > 0) {
-                    jumlahCell.style.color = 'green';
-                } else {
-                    jumlahCell.style.color = 'red';
-                }
-                row.appendChild(jumlahCell);
-                
-                tableBody.appendChild(row);
-            });
-        }
+        document.getElementById('total-pemasukan').textContent = formatRupiah(totalPemasukan);
+        document.getElementById('total-pengeluaran').textContent = formatRupiah(totalPengeluaran);
+        
+        // Update laporan stok
+        document.getElementById('laporan-stok-ikan').textContent = data.stokIkan;
+        document.getElementById('harga-jual-terakhir').textContent = formatRupiah(data.hargaJual);
+        document.getElementById('nilai-stok').textContent = formatRupiah(data.stokIkan * data.hargaJual);
+        
+        // Update tabel transaksi terakhir
+        const transaksiTerakhir = data.transaksi.slice(-10).reverse();
+        updateTable('transaksi-table', transaksiTerakhir);
+        
+        // Update tabel semua transaksi
+        updateTable('semua-transaksi-table', [...data.transaksi].reverse());
         
         // Update tabel riwayat stok
-        function updateStokTable() {
-            const tableBody = document.querySelector('#riwayat-stok-table tbody');
-            tableBody.innerHTML = '';
-            
-            data.riwayatStok.forEach(item => {
-                const row = document.createElement('tr');
-                
-                const tanggalCell = document.createElement('td');
-                tanggalCell.textContent = item.tanggal;
-                row.appendChild(tanggalCell);
-                
-                const keteranganCell = document.createElement('td');
-                keteranganCell.textContent = item.keterangan;
-                row.appendChild(keteranganCell);
-                
-                const perubahanCell = document.createElement('td');
-                if (item.perubahan > 0) {
-                    perubahanCell.textContent = `+${item.perubahan} kg`;
-                    perubahanCell.style.color = 'green';
-                } else {
-                    perubahanCell.textContent = `${item.perubahan} kg`;
-                    perubahanCell.style.color = 'red';
-                }
-                row.appendChild(perubahanCell);
-                
-                const stokAkhirCell = document.createElement('td');
-                stokAkhirCell.textContent = `${item.stokAkhir} kg`;
-                row.appendChild(stokAkhirCell);
-                
-                tableBody.appendChild(row);
-            });
-        }
+        updateStokTable();
         
-        // Format angka ke format Rupiah
-        function formatRupiah(angka) {
-            return `Rp ${angka.toLocaleString('id-ID')}`;
-        }
+        // Update tabel biaya operasional
+        updateTable('biaya-table', data.biayaOperasional);
+    }
+    
+    // Update tabel dengan data
+    function updateTable(tableId, items) {
+        const tableBody = document.querySelector(`#${tableId} tbody`);
+        tableBody.innerHTML = '';
         
-        // Tampilkan notifikasi
-        function showNotification(message, type) {
-            const notification = document.getElementById('notification');
-            notification.textContent = message;
-            notification.className = `notification ${type}`;
-            notification.style.display = 'block';
+        items.forEach(item => {
+            const row = document.createElement('tr');
             
-            setTimeout(() => {
-                notification.style.display = 'none';
-            }, 3000);
-        }
-        
-        // Fungsi untuk membuka modal
-        function openModal(modalId) {
-            document.getElementById(modalId).style.display = 'block';
-        }
-        
-        // Fungsi untuk menutup modal
-        function closeModal(modalId) {
-            document.getElementById(modalId).style.display = 'none';
-        }
-        
-        // Fungsi untuk menampilkan tab
-        function showTab(tabName) {
-            // Sembunyikan semua tab content
-            const tabcontents = document.getElementsByClassName('tabcontent');
-            for (let i = 0; i < tabcontents.length; i++) {
-                tabcontents[i].style.display = 'none';
-            }
+            const tanggalCell = document.createElement('td');
+            tanggalCell.textContent = item.tanggal;
+            row.appendChild(tanggalCell);
             
-            // Hapus class active dari semua tab links
-            const tablinks = document.getElementsByClassName('tablinks');
-            for (let i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(' active', '');
-            }
+            const keteranganCell = document.createElement('td');
+            keteranganCell.textContent = item.keterangan;
+            row.appendChild(keteranganCell);
             
-            // Tampilkan tab yang dipilih dan tambahkan class active ke button
-            document.getElementById(tabName).style.display = 'block';
-            event.currentTarget.className += ' active';
-        }
-        
-        // Event listener untuk form modal awal
-        document.getElementById('modal-awal-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const modalAwal = parseFloat(document.getElementById('modal-awal-input').value);
-            
-            if (isNaN(modalAwal) {
-                showNotification('Masukkan jumlah yang valid', 'error');
-                return;
-            }
-            
-            // Jika modal awal sudah ada sebelumnya, hitung selisihnya
-            if (data.modalAwal > 0) {
-                const selisih = modalAwal - data.modalAwal;
-                data.saldo += selisih;
-                catatTransaksi(`Penyesuaian modal awal (+Rp ${selisih.toLocaleString('id-ID')})`, selisih);
+            const jumlahCell = document.createElement('td');
+            jumlahCell.textContent = formatRupiah(item.jumlah);
+            if (item.jumlah > 0) {
+                jumlahCell.style.color = 'green';
             } else {
-                // Jika modal baru pertama kali diatur
-                data.saldo = modalAwal;
-                catatTransaksi('Modal awal', modalAwal);
+                jumlahCell.style.color = 'red';
             }
+            row.appendChild(jumlahCell);
             
-            data.modalAwal = modalAwal;
-            updateUI();
-            saveData();
-            closeModal('modal-awal-modal');
-            this.reset();
-            
-            showNotification('Modal awal berhasil diatur', 'success');
+            tableBody.appendChild(row);
         });
+    }
+    
+    // Update tabel riwayat stok
+    function updateStokTable() {
+        const tableBody = document.querySelector('#riwayat-stok-table tbody');
+        tableBody.innerHTML = '';
         
-        // Event listener untuk form pembelian
-        document.getElementById('pembelian-form').addEventListener('submit', function(e) {
-            e.preventDefault();
+        data.riwayatStok.forEach(item => {
+            const row = document.createElement('tr');
             
-            const jenis = document.getElementById('jenis-pembelian').value;
-            const jumlah = parseFloat(document.getElementById('jumlah-pembelian').value);
-            const harga = parseFloat(document.getElementById('harga-pembelian').value);
+            const tanggalCell = document.createElement('td');
+            tanggalCell.textContent = item.tanggal;
+            row.appendChild(tanggalCell);
             
-            if (isNaN(jumlah) || isNaN(harga)) {
-                showNotification('Masukkan jumlah dan harga yang valid', 'error');
-                return;
+            const keteranganCell = document.createElement('td');
+            keteranganCell.textContent = item.keterangan;
+            row.appendChild(keteranganCell);
+            
+            const perubahanCell = document.createElement('td');
+            if (item.perubahan > 0) {
+                perubahanCell.textContent = `+${item.perubahan} kg`;
+                perubahanCell.style.color = 'green';
+            } else {
+                perubahanCell.textContent = `${item.perubahan} kg`;
+                perubahanCell.style.color = 'red';
             }
+            row.appendChild(perubahanCell);
             
-            const total = jumlah * harga;
+            const stokAkhirCell = document.createElement('td');
+            stokAkhirCell.textContent = `${item.stokAkhir} kg`;
+            row.appendChild(stokAkhirCell);
             
-            if (total > data.saldo) {
-                showNotification('Saldo tidak mencukupi', 'error');
-                return;
-            }
-            
-            data.saldo -= total;
-            
-            if (jenis === 'benih') {
-                data.stokIkan += jumlah;
-                catatRiwayatStok(`Pembelian benih ${jumlah} kg`, jumlah, data.stokIkan);
-            }
-            
-            catatTransaksi(`Pembelian ${jenis} ${jumlah} kg`, -total);
-            updateUI();
-            saveData();
-            closeModal('pembelian-modal');
-            this.reset();
-            
-            showNotification('Pembelian berhasil dicatat', 'success');
+            tableBody.appendChild(row);
         });
+    }
+    
+    // Format angka ke format Rupiah
+    function formatRupiah(angka) {
+        return `Rp ${angka.toLocaleString('id-ID')}`;
+    }
+    
+    // Tampilkan notifikasi
+    function showNotification(message, type) {
+        const notification = document.getElementById('notification');
+        notification.textContent = message;
+        notification.className = `notification ${type}`;
+        notification.style.display = 'block';
         
-        // Event listener untuk form penjualan
-        document.getElementById('penjualan-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const jumlah = parseFloat(document.getElementById('jumlah-penjualan').value);
-            const harga = parseFloat(document.getElementById('harga-penjualan').value);
-            
-            if (isNaN(jumlah) || isNaN(harga)) {
-                showNotification('Masukkan jumlah dan harga yang valid', 'error');
-                return;
-            }
-            
-            if (jumlah > data.stokIkan) {
-                showNotification(`Stok tidak mencukupi! Stok tersedia: ${data.stokIkan} kg`, 'error');
-                return;
-            }
-            
-            const total = jumlah * harga;
-            data.saldo += total;
-            data.stokIkan -= jumlah;
-            data.hargaJual = harga;
-            
-            catatTransaksi(`Penjualan ikan ${jumlah} kg`, total);
-            catatRiwayatStok(`Penjualan ikan ${jumlah} kg`, -jumlah, data.stokIkan);
-            updateUI();
-            saveData();
-            closeModal('penjualan-modal');
-            this.reset();
-            
-            showNotification('Penjualan berhasil dicatat', 'success');
-        });
-        
-        // Event listener untuk form biaya operasional
-        document.getElementById('biaya-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const keterangan = document.getElementById('keterangan-biaya').value;
-            const jumlah = parseFloat(document.getElementById('jumlah-biaya').value);
-            
-            if (isNaN(jumlah)) {
-                showNotification('Masukkan jumlah yang valid', 'error');
-                return;
-            }
-            
-            if (jumlah > data.saldo) {
-                showNotification('Saldo tidak mencukupi', 'error');
-                return;
-            }
-            
-            data.saldo -= jumlah;
-            
-            const biaya = {
-                tanggal: new Date().toLocaleString('id-ID'),
-                keterangan: keterangan,
-                jumlah: jumlah
-            };
-            
-            data.biayaOperasional.push(biaya);
-            catatTransaksi(`Biaya operasional: ${keterangan}`, -jumlah);
-            updateUI();
-            saveData();
-            this.reset();
-            
-            showNotification('Biaya operasional berhasil dicatat', 'success');
-        });
-        
-        // Fungsi untuk mencatat transaksi
-        function catatTransaksi(keterangan, jumlah) {
-            const transaksi = {
-                tanggal: new Date().toLocaleString('id-ID'),
-                keterangan: keterangan,
-                jumlah: jumlah
-            };
-            
-            data.transaksi.push(transaksi);
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 3000);
+    }
+    
+    // Fungsi untuk membuka modal
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+    }
+    
+    // Fungsi untuk menutup modal
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+    }
+    
+    // Fungsi untuk menampilkan tab
+    function showTab(tabName) {
+        // Sembunyikan semua tab content
+        const tabcontents = document.getElementsByClassName('tabcontent');
+        for (let i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].style.display = 'none';
         }
         
-        // Fungsi untuk mencatat riwayat stok
-        function catatRiwayatStok(keterangan, perubahan, stokAkhir) {
-            const riwayat = {
-                tanggal: new Date().toLocaleString('id-ID'),
-                keterangan: keterangan,
-                perubahan: perubahan,
-                stokAkhir: stokAkhir
-            };
-            
-            data.riwayatStok.push(riwayat);
+        // Hapus class active dari semua tab links
+        const tablinks = document.getElementsByClassName('tablinks');
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(' active', '');
         }
         
-        // Tutup modal ketika mengklik di luar modal
-        window.onclick = function(event) {
-            const modals = document.getElementsByClassName('modal');
-            for (let i = 0; i < modals.length; i++) {
-                if (event.target == modals[i]) {
-                    modals[i].style.display = 'none';
-                }
-            }
+        // Tampilkan tab yang dipilih dan tambahkan class active ke button
+        document.getElementById(tabName).style.display = 'block';
+        event.currentTarget.className += ' active';
+    }
+    
+    // Event listener untuk form modal awal
+    document.getElementById('modal-awal-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const modalAwal = parseFloat(document.getElementById('modal-awal-input').value);
+        
+        if (isNaN(modalAwal) {
+            showNotification('Masukkan jumlah yang valid', 'error');
+            return;
         }
         
-        // Load data saat halaman dimuat
-        window.onload = function() {
-            loadData();
+        // Jika modal awal sudah ada sebelumnya, hitung selisihnya
+        if (data.modalAwal > 0) {
+            const selisih = modalAwal - data.modalAwal;
+            data.saldo += selisih;
+            catatTransaksi(`Penyesuaian modal awal (+Rp ${selisih.toLocaleString('id-ID')})`, selisih);
+        } else {
+            // Jika modal baru pertama kali diatur
+            data.saldo = modalAwal;
+            catatTransaksi('Modal awal', modalAwal);
+        }
+        
+        data.modalAwal = modalAwal;
+        updateUI();
+        saveData();
+        closeModal('modal-awal-modal');
+        this.reset();
+        
+        showNotification('Modal awal berhasil diatur', 'success');
+    });
+    
+    // Event listener untuk form pembelian
+    document.getElementById('pembelian-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const jenis = document.getElementById('jenis-pembelian').value;
+        const jumlah = parseFloat(document.getElementById('jumlah-pembelian').value);
+        const harga = parseFloat(document.getElementById('harga-pembelian').value);
+        
+        if (isNaN(jumlah) || isNaN(harga)) {
+            showNotification('Masukkan jumlah dan harga yang valid', 'error');
+            return;
+        }
+        
+        const total = jumlah * harga;
+        
+        if (total > data.saldo) {
+            showNotification('Saldo tidak mencukupi', 'error');
+            return;
+        }
+        
+        data.saldo -= total;
+        
+        if (jenis === 'benih') {
+            data.stokIkan += jumlah;
+            catatRiwayatStok(`Pembelian benih ${jumlah} kg`, jumlah, data.stokIkan);
+        }
+        
+        catatTransaksi(`Pembelian ${jenis} ${jumlah} kg`, -total);
+        updateUI();
+        saveData();
+        closeModal('pembelian-modal');
+        this.reset();
+        
+        showNotification('Pembelian berhasil dicatat', 'success');
+    });
+    
+    // Event listener untuk form penjualan
+    document.getElementById('penjualan-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const jumlah = parseFloat(document.getElementById('jumlah-penjualan').value);
+        const harga = parseFloat(document.getElementById('harga-penjualan').value);
+        
+        if (isNaN(jumlah) || isNaN(harga)) {
+            showNotification('Masukkan jumlah dan harga yang valid', 'error');
+            return;
+        }
+        
+        if (jumlah > data.stokIkan) {
+            showNotification(`Stok tidak mencukupi! Stok tersedia: ${data.stokIkan} kg`, 'error');
+            return;
+        }
+        
+        const total = jumlah * harga;
+        data.saldo += total;
+        data.stokIkan -= jumlah;
+        data.hargaJual = harga;
+        
+        catatTransaksi(`Penjualan ikan ${jumlah} kg`, total);
+        catatRiwayatStok(`Penjualan ikan ${jumlah} kg`, -jumlah, data.stokIkan);
+        updateUI();
+        saveData();
+        closeModal('penjualan-modal');
+        this.reset();
+        
+        showNotification('Penjualan berhasil dicatat', 'success');
+    });
+    
+    // Event listener untuk form biaya operasional
+    document.getElementById('biaya-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const keterangan = document.getElementById('keterangan-biaya').value;
+        const jumlah = parseFloat(document.getElementById('jumlah-biaya').value);
+        
+        if (isNaN(jumlah)) {
+            showNotification('Masukkan jumlah yang valid', 'error');
+            return;
+        }
+        
+        if (jumlah > data.saldo) {
+            showNotification('Saldo tidak mencukupi', 'error');
+            return;
+        }
+        
+        data.saldo -= jumlah;
+        
+        const biaya = {
+            tanggal: new Date().toLocaleString('id-ID'),
+            keterangan: keterangan,
+            jumlah: jumlah
         };
-    </script>
+        
+        data.biayaOperasional.push(biaya);
+        catatTransaksi(`Biaya operasional: ${keterangan}`, -jumlah);
+        updateUI();
+        saveData();
+        this.reset();
+        
+        showNotification('Biaya operasional berhasil dicatat', 'success');
+    });
+    
+    // Fungsi untuk mencatat transaksi
+    function catatTransaksi(keterangan, jumlah) {
+        const transaksi = {
+            tanggal: new Date().toLocaleString('id-ID'),
+            keterangan: keterangan,
+            jumlah: jumlah
+        };
+        
+        data.transaksi.push(transaksi);
+    }
+    
+    // Fungsi untuk mencatat riwayat stok
+    function catatRiwayatStok(keterangan, perubahan, stokAkhir) {
+        const riwayat = {
+            tanggal: new Date().toLocaleString('id-ID'),
+            keterangan: keterangan,
+            perubahan: perubahan,
+            stokAkhir: stokAkhir
+        };
+        
+        data.riwayatStok.push(riwayat);
+    }
+    
+    // Tutup modal ketika mengklik di luar modal
+    window.onclick = function(event) {
+        const modals = document.getElementsByClassName('modal');
+        for (let i = 0; i < modals.length; i++) {
+            if (event.target == modals[i]) {
+                modals[i].style.display = 'none';
+            }
+        }
+    }
+    
+    // Load data saat halaman dimuat
+    window.onload = function() {
+        loadData();
+    };
+</script>
+```
+
 </body>
 </html>
